@@ -1,0 +1,256 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"goo",
+				"gooe"
+			],
+			[
+				"BA",
+				"BASE_DIR"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"background-c",
+				"background-color\tproperty"
+			],
+			[
+				"border-r",
+				"border-radius\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/shivam/Desktop/myapp/package.json",
+		"/home/shivam/Desktop/myapp/src/App.js",
+		"/home/shivam/Desktop/myapp/src/func.js",
+		"/home/shivam/Desktop/myapp/src/message.js",
+		"/home/shivam/Desktop/myapp/src/clas.js",
+		"/home/shivam/Desktop/django/neews/pose/models.py",
+		"/home/shivam/Desktop/django/neews/pose/admin.py",
+		"/home/shivam/Desktop/django/neews/neews/api.py",
+		"/home/shivam/Desktop/django/neews/neews/settings.py",
+		"/home/shivam/Desktop/django/neews/newpost/models.py",
+		"/home/shivam/Desktop/django/neews/pages/admin.py",
+		"/home/shivam/Desktop/django/neews/posts/models.py",
+		"/home/shivam/Desktop/django/neews/newpost/admin.py",
+		"/home/shivam/Desktop/django/neews/pages/views.py",
+		"/home/shivam/Desktop/django/neews/neews/temples/home.html",
+		"/home/shivam/Desktop/django/neews/neews/urls.py",
+		"/home/shivam/Desktop/django/neews/posts/admin.py",
+		"/home/shivam/Desktop/django/neews/neews/__init__.py",
+		"/home/shivam/Desktop/django/news/post/admin.py",
+		"/home/shivam/Desktop/django/news/news/settings.py",
+		"/home/shivam/Desktop/django/news/post/models.py",
+		"/home/shivam/Desktop/django/post/admin.py",
+		"/home/shivam/Desktop/django/post/models.py",
+		"/root/Desktop/django/src/trydjango/products/models.py",
+		"/root/Desktop/django/src/trydjango/trydjango/settings.py",
+		"/root/Desktop/Program25.java",
+		"/root/Desktop/rahul.txt",
+		"/root/Desktop/python/untitled.py",
+		"/root/Desktop/python/untitled",
+		"/opt/lampp/htdocs/hemu/index.php",
+		"/opt/lampp/htdocs/dashboard/index.php",
+		"/root/Desktop/cap/index.html",
+		"/root/Desktop/jay.html",
+		"/opt/lampp/htdocs/dashboard/connect.php",
+		"/opt/lampp/htdocs/dashboard/rank.php",
+		"/opt/lampp/htdocs/dashboard/ide.php",
+		"/opt/lampp/htdocs/ide.php",
+		"/opt/lampp/htdocs/array.php",
+		"/opt/lampp/htdocs/index.html",
+		"/root/Desktop/omni/omnicoder-question/Round 2/Coding Question",
+		"/opt/lampp/htdocs/dashboard/truck.php",
+		"/opt/lampp/htdocs/dashboard/login.php",
+		"/opt/lampp/htdocs/dashboard/spreadsheet.php",
+		"/opt/lampp/htdocs/dashboard/double.php",
+		"/opt/lampp/htdocs/dashboard/python.php",
+		"/opt/lampp/htdocs/dashboard/c++.php",
+		"/opt/lampp/htdocs/dashboard/logout.php",
+		"/root/Desktop/double.py",
+		"/opt/lampp/htdocs/omnicoder/omnicoder2/Ques/9.html",
+		"/opt/lampp/htdocs/omnicoder/omnicoder2/Ques/10.html",
+		"/opt/lampp/htdocs/omnicoder/omnicoder2/Ques/1.html",
+		"/opt/lampp/htdocs/omnicoder/omnicoder2/Ques/8.html",
+		"/opt/lampp/htdocs/omnicoder/omnicoder2/Ques/7.html",
+		"/opt/lampp/htdocs/omnicoder/omnicoder2/Ques/6.html",
+		"/opt/lampp/htdocs/omnicoder/omnicoder2/Ques/5.html",
+		"/opt/lampp/htdocs/omnicoder/omnicoder2/Ques/4.html",
+		"/opt/lampp/htdocs/omnicoder/omnicoder2/Ques/3.html",
+		"/opt/lampp/htdocs/omnicoder/omnicoder2/Ques/2.html",
+		"/opt/lampp/htdocs/omnicoder/omnicoder2/index.php",
+		"/root/Desktop/shivani.html",
+		"/opt/lampp/htdocs/omnicoder/omnicoder/index.php",
+		"/opt/lampp/htdocs/test.html",
+		"/opt/lampp/htdocs/jquery-ui/index.html",
+		"/root/Downloads/[FreeCourseSite.com] Udemy - The Complete Web Developer Course 2.0/5. jQuery/30. jQuery Project - Code Player Project - Files.html",
+		"/root/Downloads/[FreeCourseSite.com] Udemy - The Complete Web Developer Course 2.0/5. jQuery/29. jQuery Project - Code Player.mp4",
+		"/root/Downloads/practical ans/13Static.java",
+		"/root/Desktop/web/script.html",
+		"/root/Desktop/script.html",
+		"/root/Desktop/scri[pt.html",
+		"/root/Desktop/easy.cpp",
+		"/root/Desktop/test.cpp",
+		"/root/.config/sublime-text-3/Packages/User/gcc.sublime-build"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Java/JavaC.sublime-build",
+	"project": "img.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

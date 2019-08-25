@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+*{
+	font-family: Rubik;
+}
+
+@media (max-width:1000px) {
+  img{
+    display: none;
+  }
+} 
+body{
+	 	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-image: url("editor-bg.svg") ;	
+	height: calc(var(--vh, 1vh) * 100);
+}
+.Header{
+	background-color: #C71585;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.Header > h1{
+
+ font-size: 600%;
+ padding-left: 20%;
+  margin-top: 25px;
+font-family: "Times New Roman", Times, serif;
+color: white;
+}
+
+.container-fluid{
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	width:100%;
+}
+
+.custom-select{
+	color:white;
+	
+}
+.form-group{
+	align-items: center;
+	text-align: center;
+	width: 80%;
+	padding-left: 20%;
+
+
+}
+button {
+margin-top:1%;
+margin-left: 50%	
+}
+
+.Leave button {
+margin-top:1%;
+margin-left: 37%
+
+}
+.Leave{
+		align-items: center;
+	text-align: center;
+	width: 80%;
+	padding-left: 30%;
+	color:black;
+
+}
