@@ -4,8 +4,72 @@
 		"selected_items":
 		[
 			[
+				"AC",
+				"action\tAttr"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"ma",
+				"margin\tproperty"
+			],
+			[
+				"d",
+				"direction\tproperty"
+			],
+			[
+				"dire",
+				"flex-direction\tproperty"
+			],
+			[
+				"fle",
+				"flex-wrap\tproperty"
+			],
+			[
+				"bor",
+				"border-width\tproperty"
+			],
+			[
+				"Not",
+				"Notification"
+			],
+			[
+				"col",
+				"background-color"
+			],
+			[
 				"pa",
-				"padding-top\tproperty"
+				"padding-left\tproperty"
+			],
+			[
+				"al",
+				"text-align\tproperty"
+			],
+			[
+				"top",
+				"margin-top\tproperty"
+			],
+			[
+				"ba",
+				"background-image\tproperty"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"left",
+				"padding-left\tproperty"
+			],
+			[
+				"lef",
+				"padding-left\tproperty"
+			],
+			[
+				"bg",
+				"background-color\tproperty"
 			],
 			[
 				"goo",
@@ -44,7 +108,25 @@
 			"file": "admin.php",
 			"settings":
 			{
-				"buffer_size": 1624,
+				"buffer_size": 3549,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "php/notification.php",
+			"settings":
+			{
+				"buffer_size": 192,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "elements.js",
+			"settings":
+			{
+				"buffer_size": 306,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -53,7 +135,7 @@
 			"file": "adminStyle.css",
 			"settings":
 			{
-				"buffer_size": 361,
+				"buffer_size": 1035,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -91,10 +173,15 @@
 	},
 	"expanded_folders":
 	[
-		"/opt/lampp/htdocs/Notice"
+		"/opt/lampp/htdocs/Notice",
+		"/opt/lampp/htdocs/Notice/php"
 	],
 	"file_history":
 	[
+		"/opt/lampp/htdocs/Notice/connect.php",
+		"/opt/lampp/htdocs/Notice/notification.php",
+		"/opt/lampp/htdocs/Notice/test.php",
+		"/opt/lampp/htdocs/Notice/index.html",
 		"/opt/lampp/htdocs/Notice/img.png",
 		"/home/shivam/Desktop/myapp/package.json",
 		"/home/shivam/Desktop/myapp/src/App.js",
@@ -185,6 +272,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"notification",
+			"info"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -202,7 +291,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -218,14 +307,100 @@
 						"selection":
 						[
 							[
-								275,
-								275
+								765,
+								765
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 833.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "admin.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3549,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "php/notification.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								122,
+								122
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "elements.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 306,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								302,
+								302
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -235,48 +410,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "admin.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1624,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								961,
-								961
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 109.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
+					"buffer": 4,
 					"file": "adminStyle.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 361,
+						"buffer_size": 1035,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								287,
-								287
+								908,
+								908
 							]
 						],
 						"settings":
@@ -284,10 +431,10 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 765.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]

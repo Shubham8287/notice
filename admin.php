@@ -1,3 +1,4 @@
+<?php require("php/notification.php") ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,6 +18,41 @@
 	$(".datepicker").datepicker();
 } );
 </script>
+
+  <script>
+  $( function() {
+    var availableTags = [
+      "ActionScript",
+      "AppleScript",
+      "Asp",
+      "BASIC",
+      "C",
+      "C++",
+      "Clojure",
+      "COBOL",
+      "ColdFusion",
+      "Erlang",
+      "Fortran",
+      "Groovy",
+      "Haskell",
+      "Java",
+      "JavaScript",
+      "Lisp",
+      "Perl",
+      "PHP",
+      "Python",
+      "Ruby",
+      "Scala",
+      "Scheme"
+    ];
+    $( "#name" ).autocomplete({
+      source: availableTags
+    });
+  } );
+  </script>
+
+
+
 <script src="elements.js" > 
 
 </script>
@@ -53,10 +89,10 @@
 
 <div class="Notification">
 	  <div class="col-md-12 select-outline">
-    <form >
+    <form method="POST" >
   <div class="form-group">
-  	  <label for="exampleFormControlTextarea1">Example textarea</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+    <textarea class="form-control" name="disc" rows="3" placeholder="notification..."></textarea>
   </div>
     <button type="submit" class="btn btn-primary">Save</button>
 </form>
@@ -64,24 +100,49 @@
 </div>
 
   
+  <div clss="row">
 <div class="Leave">
 		 <div class="col-md-12 select-outline">
 		 	<form >
-		 		<div class= "row">
-		 		<h2>From: &nbsp</h2> 
-		 		<input type="text" class="datepicker" name="sdate" placeholder="dd/mm/yyyy">
-		 		&nbsp &nbsp <h2>To:&nbsp</h2>
-		 		 <input type="text"  class="datepicker" name="edate"  placeholder="dd/mm/yyyy"> 
-		 		</div><br> 
-		 		<div class= "row">
-		 		 <button type="submit" class="btn btn-primary">Save</button>
+		 		<div class="row">
+		 			 <div class="col-md-4"> 
+		 			<h2>Name: &nbsp</h2> 
+		 		    <input type="text"  id="name" name="name" placeholder="Name" class="ui-widgets">
+		 			</div>
+		 			 <div class="col-md-4"> 
+		 			<h2>Course: &nbsp</h2> 	
+
+		 			<select class="mdb-select " >
+					  <option value="" disabled selected>Course</option>
+					  <option value="BSC CS(HONS)">BSC CS(HONS)</option>
+					  <option value="BSC MATH(HONS)">BSC (HONS)</option>
+					  <option value="BSC BVOC(HONS)">BSC BVOC(HONS)</option>
+					  
+					</select>
+					</div>
+		 			
+						
 		 		</div>
+
+		 		<div class= "row ">
+		 			 <div class="col-md-4"> 
+		 			<h2>From: &nbsp</h2> 
+		 			<input type="text" class="datepicker" name="sdate" placeholder="dd/mm/yyyy">
+		 			&nbsp &nbsp
+		 			</div>
+		 			 <div class="col-md-4">  <h2>To:&nbsp</h2>
+		 		 	<input type="text"  class="datepicker" name="edate"  placeholder="dd/mm/yyyy"> 
+		 		</div><br> </div>
+		 		
+		 		
+		 		 <button type="submit" class="btn btn-primary">Save</button>
+		 	
 		  </form>
 		 		
 
 		 </div>
 </div>
-
+</div>
 
 </div>
 

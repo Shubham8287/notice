@@ -44,29 +44,35 @@ color: white;
 	color:white;
 	
 }
+.Notification{
+	margin-top: 7%;
+}
 .form-group{
 	align-items: center;
 	text-align: center;
 	width: 80%;
 	padding-left: 20%;
-
+	border-width: 5px;
 
 }
-button {
+.Notification button {
 margin-top:1%;
 margin-left: 50%	
 }
 
+
 .Leave button {
-margin-top:1%;
-margin-left: 37%
+	margin-top: 0%;
+	margin-left: 28%
 
 }
 .Leave{
-		align-items: center;
-	text-align: center;
-	width: 80%;
-	padding-left: 30%;
+	margin-top: 8%;
+	direction: right;	
+	width: 120%;
+	padding-left: 25%;
 	color:black;
-
+}
+form > .row{
+margin: 3%;
 }
