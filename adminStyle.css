@@ -47,6 +47,11 @@ color: white;
 .Notification{
 	margin-top: 7%;
 }
+
+.alertNotification{
+	margin-top: 7%;
+}
+
 .form-group{
 	align-items: center;
 	text-align: center;
@@ -56,6 +61,11 @@ color: white;
 
 }
 .Notification button {
+margin-top:1%;
+margin-left: 50%	
+}
+
+.alertNotification button {
 margin-top:1%;
 margin-left: 50%	
 }

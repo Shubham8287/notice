@@ -1,4 +1,6 @@
 <?php require("php/notification.php") ?>
+<?php (require("php/leave.php"))?>
+<?php require("php/alertnotification.php") ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,42 +17,12 @@
 	<link rel="stylesheet" href="adminStyle.css">
 
 	<script> $(function() {
-	$(".datepicker").datepicker();
+	$(".datepicker").datepicker({ dateFormat: 'yy-mm-dd' });
 } );
 </script>
 
-  <script>
-  $( function() {
-    var availableTags = [
-      "ActionScript",
-      "AppleScript",
-      "Asp",
-      "BASIC",
-      "C",
-      "C++",
-      "Clojure",
-      "COBOL",
-      "ColdFusion",
-      "Erlang",
-      "Fortran",
-      "Groovy",
-      "Haskell",
-      "Java",
-      "JavaScript",
-      "Lisp",
-      "Perl",
-      "PHP",
-      "Python",
-      "Ruby",
-      "Scala",
-      "Scheme"
-    ];
-    $( "#name" ).autocomplete({
-      source: availableTags
-    });
-  } );
+  <script src= teachersSuggestion.js>
   </script>
-
 
 
 <script src="elements.js" > 
@@ -99,11 +71,24 @@
 </div>
 </div>
 
+<div class="alertNotification">
+    <div class="col-md-12 select-outline">
+    <form method="POST" >
+  <div class="form-group">
+
+    <textarea class="form-control" name="alertdisc" rows="3" placeholder="notification..."></textarea>
+  </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+</div>
+</div>
+
+
   
   <div clss="row">
 <div class="Leave">
 		 <div class="col-md-12 select-outline">
-		 	<form >
+		 	<form method="POST" >
 		 		<div class="row">
 		 			 <div class="col-md-4"> 
 		 			<h2>Name: &nbsp</h2> 
@@ -112,7 +97,7 @@
 		 			 <div class="col-md-4"> 
 		 			<h2>Course: &nbsp</h2> 	
 
-		 			<select class="mdb-select " >
+		 			<select class="mdb-select " name="selectedCourse">
 					  <option value="" disabled selected>Course</option>
 					  <option value="BSC CS(HONS)">BSC CS(HONS)</option>
 					  <option value="BSC MATH(HONS)">BSC (HONS)</option>
@@ -127,11 +112,11 @@
 		 		<div class= "row ">
 		 			 <div class="col-md-4"> 
 		 			<h2>From: &nbsp</h2> 
-		 			<input type="text" class="datepicker" name="sdate" placeholder="dd/mm/yyyy">
+		 			<input type="text" class="datepicker" name="sdate" placeholder="yyyy-mm-dd">
 		 			&nbsp &nbsp
 		 			</div>
 		 			 <div class="col-md-4">  <h2>To:&nbsp</h2>
-		 		 	<input type="text"  class="datepicker" name="edate"  placeholder="dd/mm/yyyy"> 
+		 		 	<input type="text"  class="datepicker" name="edate"  placeholder="yyy-mm-dd"> 
 		 		</div><br> </div>
 		 		
 		 		
