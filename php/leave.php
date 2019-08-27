@@ -13,7 +13,7 @@ if(isset($_POST['name'])&&isset($_POST['selectedCourse'])&&isset($_POST['sdate']
 
 		$dateTimestamp1 = strtotime($sdate); 
 		$dateTimestamp2 = strtotime($edate); 
-  echo($dateTimestamp2);
+  
 // Compare the timestamp date  
 	if ($dateTimestamp1 > $dateTimestamp2) 
     echo("<script>alert('fill Dates correctly');</script>"); 

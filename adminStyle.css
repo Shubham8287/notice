@@ -17,6 +17,7 @@ body{
 	overflow: hidden;
 	background-image: url("editor-bg.svg") ;	
 	height: calc(var(--vh, 1vh) * 100);
+	color:black;
 }
 .Header{
 	background-color: #C71585;
@@ -36,14 +37,11 @@ color: white;
 .container-fluid{
 	margin: 0px;
 	padding: 0px;
-	color: white;
+	color: black;
 	width:100%;
 }
 
-.custom-select{
-	color:white;
-	
-}
+
 .Notification{
 	margin-top: 7%;
 }
@@ -69,8 +67,26 @@ margin-left: 50%
 margin-top:1%;
 margin-left: 50%	
 }
+ 
 
-
+.custom-select {
+  display: inline-block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+  vertical-align: middle;
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='white' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 0.75rem center/8px 10px;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
 .Leave button {
 	margin-top: 0%;
 	margin-left: 28%
@@ -85,4 +101,7 @@ margin-left: 50%
 }
 form > .row{
 margin: 3%;
+}
+.formi{
+	text-align: center;
 }

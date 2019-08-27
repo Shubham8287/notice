@@ -47,7 +47,7 @@
 <div class="row">
   <div class="col-md-12 select-outline">
 
-    <select class="custom-select bg-primary glyphicon-ok " id="purpose">
+    <select class="custom-select bg-primary bg-dark " id="purpose">
       <option value="0" disabled selected>Choose your option</option>
       <option value="1">Photo/Video</option>
       <option value="2">Techers on Leave</option>
@@ -61,7 +61,7 @@
 
 <div class="Notification">
 	  <div class="col-md-12 select-outline">
-    <form method="POST" >
+    <form method="POST"  >
   <div class="form-group">
 
     <textarea class="form-control" name="disc" rows="3" placeholder="notification..."></textarea>
