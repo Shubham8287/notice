@@ -30,12 +30,11 @@ require('php/connect.php') ?>
 <body >
 
 <div class="Header">
-	<img src="du-logo.png" alt="Italian Trulli">
+	<img src=<?php echo (" \" "."du-logo.png"." \" "); ?>  alt="Italian Trulli">
 	<h1> Notice Panel</h1>
 
 </div>
 <div class = " container-fluid">
-
 
 <div class="row">
   <div class="col-md-12 select-outline">
@@ -178,11 +177,62 @@ header("Refresh:0");
 
 
 
+<div class="deleteimage">
+
+<?php 
+$cmd="SELECT * FROM uploads"; 
+
+$result= mysqli_query($connection,$cmd);
+?>
+<table class="table table-dark" >
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Title</th>
+      <th scope="col">Name</th>
+      <th scope="col">Image</th>
+    </tr>
+  </thead>
+<tbody>
+<?php
+while($row=mysqli_fetch_array($result))
+{ ?> <tr><td><?php  echo $row['id']; ?></td>
+  <td><?php  echo $row['title']; ?></td>
+  <td><?php echo $row['name']; ?></td>
+  <td>
+  <a  href= <?php echo (" \" ".$row['name']." \" " ); ?> > link </a>
+<?php }?>
+  </td></tr>
+    
+
+</tbody>
+</table>
+
+
+  <form method="POST" class="formi">
+    <input type="text" name="delid"  placeholder="1 or 1,2,3"></input>
+    <button type="submit" name="delete" > Delete</button>
+</form>
+<?php 
+if(isset( $_POST['delid']) )
+{ 
+$sql = "SELECT * FROM uploads WHERE id IN (".$_POST['delid'].")";
+$result = mysqli_query($connection,$sql);
+
+
+while($row=mysqli_fetch_array($result))
+  {unlink($row['name']);
+  echo ($row['name']);
+
+
+}$sql = "DELETE FROM uploads WHERE id IN (".$_POST['delid'].")";
+mysqli_query($connection,$sql);
+header("Refresh:0");
+}?>
+</div>
 
 
 
 </div>
-
-
 </body>
 </html>

@@ -6,7 +6,7 @@
 
 @media (max-width:1000px) {
   img{
-    display: none;
+    
   }
 } 
 body{
@@ -98,6 +98,20 @@ margin-left: 50%
 	width: 120%;
 	padding-left: 25%;
 	color:black;
+}
+
+.Image{
+	margin-top: 8%;
+	
+	width: 120%;
+	padding-left: 25%;
+	color:black;
+	text-align: center;
+}
+#imageUpload{
+margin: 8%;
+padding-left: 28%;
+	
 }
 form > .row{
 margin: 3%;
