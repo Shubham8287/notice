@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 *{
 	font-family: Rubik;
+	box-sizing: border-box;
 }
 
 html,body{
@@ -10,74 +12,109 @@ html,body{
 	margin: 0px;
 	padding: 0px;
 	overflow: hidden;
-	background-color: lightgray;
-	height: calc(var(--vh, 1vh) * 100);
-}
-
-.main-class{
-	justify-content: center; 
-	align-items: center;
 	text-align: center;
+	background-color: #f2f2f3;
+	height: calc(var(--vh, 1vh) * 100);
+	width: 100%;
 }
 
 .main-head{
 	text-align: center;
-	background-color: blue;
+	background: #0f0c29;
+	background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e);
+	background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 }
 
 .main-head h1{
 	color: white;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.30);
+	font-size: 2.3rem;
+	font-family: Roboto;
 }
 
 .sec{
 	background-color: white;
-	height: calc(var(--vh, 1vh) * 40);
-	border-color: black;
+	overflow: hidden;
+	height: calc(var(--vh, 1vh) * 39);
+	border-color: #302b63;
 	border-style: solid;
-	border-width: 2px;
+	border-width: 3px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+				0 10px 10px rgba(0,0,0,0.22);
+}
+
+.sec-heading{
+	padding: 4px;
+	margin: 6px;
+}
+
+.sec-heading h3{
+	color: white;
+	text-shadow: 2px 2px 4px black;
+	padding: 2px;
+	margin: 3px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.30), 
+				0 3px 6px rgba(0,0,0,0.50);
 }
 
 .photos-videos{
-	border-left: 10px solid green;
-	background-color: lightgreen;
+	background-color: #2ebf91;
+	margin-bottom: 15px;
 }
 
 .teacher-absent{
-	border-left: 10px solid gray;
-	background-color: lightsteelblue;
+	background-color: #2c3e50;
 }
 
 .teacher-absent-name{
-	border: 1px solid gray;
-	border-left: 7px solid gray;
+	border: 1.8px solid gray;
+	border-radius: 5px;
 	background-color: whitesmoke;
 }
 
+.teacher-absent-name h5{
+	margin: 2px;
+	padding: 3px;
+}
+
 .imp-notification{
-	border-left: 10px solid red;
-	background-color: lightcoral;
+	background-color: #E81E25;
+}
+
+.imp-notification-border h6{
+	margin: 2px;
+	padding: 3px;
 }
 
 .imp-notification-border{
 	margin: 1px;
-	border: 1px solid lightcoral;
-	border-left: 7px solid red;
+	border: 1.8px solid #E81E25;
+	border-left: 10px solid #E81E25;
 	border-radius: 3px;
 	background-color: whitesmoke;
+	animation: blink 2s infinite;
 }
 
 .notification{
-	border-left: 10px solid blue;
-	background-color: lightskyblue;
+	background-color: #12c2e9;
+}
+
+.notification-border h6{
+	margin: 2px;
+	padding: 3px;
 }
 
 .notification-border{
 	margin: 1px;
-	border: 1px solid gray;
-	border-left: 7px solid blue;
+	border: 1.3px solid gray;
 	border-radius: 3px;
 	background-color: whitesmoke;
 }
 
-
+@keyframes blink{
+	50% {
+		border-left: 10px solid grey;
+		border: 1.8px solid grey;
+	}
+}
 
