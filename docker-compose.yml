@@ -23,7 +23,9 @@ services:
     networks:
       - backend
     environment:
-      - MYSQL_ROOT_PASSWORD=rootpassword
+      - MYSQL_ROOT_PASSWORD=root
+    ports:
+      - "9906:3306"
 networks:
   frontend:
   backend:
