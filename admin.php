@@ -65,7 +65,7 @@
     <form method="POST"  >
   <div class="form-group">
 
-    <textarea class="form-control" name="disc" rows="3" placeholder="notification..."></textarea>
+    <textarea class="form-control" name="disc" rows="3" placeholder="notification..." required></textarea>
   </div>
     <button type="submit" class="btn btn-primary">Save</button>
 </form>
@@ -77,7 +77,7 @@
     <form method="POST" >
   <div class="form-group">
 
-    <textarea class="form-control" name="alertdisc" rows="3" placeholder="notification..."></textarea>
+    <textarea class="form-control" name="alertdisc" rows="3" placeholder="notification..." required></textarea>
   </div>
     <button type="submit" class="btn btn-primary">Save</button>
 </form>
@@ -93,8 +93,8 @@
            <div class="col-md-4"> 
           <h2>Title: &nbsp</h2> 
           <?php require("php/image.php") ?>
-            <input type="text"   name="title" placeholder="Title" class="ui-widgets">
-            <input type="file" name="fileToUpload" id="imageUpload">
+            <input type="text"   name="title" placeholder="Title" class="ui-widgets" required>
+            <input type="file" name="fileToUpload" id="imageUpload" required>
              <button type="submit" name="imagesubmit" class="btn btn-primary">Save</button>
 
           </div>
@@ -108,7 +108,7 @@
 		 		<div class="row">
 		 			 <div class="col-md-4"> 
 		 			<h2>Name: &nbsp</h2> 
-		 		    <input type="text"  id="name" name="name" placeholder="Name" class="ui-widgets">
+		 		    <input type="text"  id="name" name="name" placeholder="Name" class="ui-widgets" required>
 		 			</div>
 		 			 <div class="col-md-4"> 
 		 			<h2>Course: &nbsp</h2> 	
@@ -128,11 +128,11 @@
 		 		<div class= "row ">
 		 			 <div class="col-md-4"> 
 		 			<h2>From: &nbsp</h2> 
-		 			<input type="text" class="datepicker" name="sdate" placeholder="yyyy-mm-dd">
+		 			<input type="text" class="datepicker" name="sdate" placeholder="yyyy-mm-dd" required>
 		 			&nbsp &nbsp
 		 			</div>
 		 			 <div class="col-md-4">  <h2>To:&nbsp</h2>
-		 		 	<input type="text"  class="datepicker" name="edate"  placeholder="yyy-mm-dd"> 
+		 		 	<input type="text"  class="datepicker" name="edate"  placeholder="yyy-mm-dd" required> 
 		 		</div><br> </div>
 		 		
 		 		
