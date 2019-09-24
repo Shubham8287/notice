@@ -1,120 +1,125 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 *{
-	font-family: Rubik;
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
 }
 
 html,body{
 	width: 100%;
 	height: 100%;
-	margin: 0px;
-	padding: 0px;
 	overflow: hidden;
-	text-align: center;
+	font-family: Rubik;
 	background-color: #f2f2f3;
-	height: calc(var(--vh, 1vh) * 100);
-	width: 100%;
 }
 
-.main-head{
-	text-align: center;
-	background: #0f0c29;
-	background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e);
-	background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+.FirstRow{
+	display: flex;
+	margin: 20px 0px;
+	justify-content: space-evenly;
 }
 
-.main-head h1{
-	color: white;
-	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.30);
-	font-size: 2.3rem;
-	font-family: Roboto;
+.SecondRow{
+	display: flex;
+	margin: 20px 0px;
+	justify-content: space-evenly;
 }
 
 .sec{
-	background-color: white;
+	height: 45vh;
+	flex-basis: 47%;
+	display: flex;
 	overflow: hidden;
-	height: calc(var(--vh, 1vh) * 39);
-	border-color: #302b63;
-	border-style: solid;
-	border-width: 3px;
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
-				0 10px 10px rgba(0,0,0,0.22);
+	flex-direction: column;
+	justify-content: flex-start;
+	background-color: white;
 }
 
 .sec-heading{
-	padding: 4px;
-	margin: 6px;
+	text-align: center;
 }
 
-.sec-heading h3{
+.sec-heading h2{
 	color: white;
-	text-shadow: 2px 2px 4px black;
-	padding: 2px;
-	margin: 3px;
+	padding: 4px;
+	margin: 7px;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.30), 
 				0 3px 6px rgba(0,0,0,0.50);
 }
 
-.photos-videos{
-	background-color: #2ebf91;
-	margin-bottom: 15px;
+.photo-galery{
+	height: 45vh;
+	flex-basis: 47%;
+	display: flex;
+	overflow: hidden;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
 }
 
-.teacher-absent{
-	background-color: #2c3e50;
+.teachers-on-leave-names{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	text-align: center;
 }
 
-.teacher-absent-name{
-	border: 1.8px solid gray;
+.teachers-on-leave-heading{
+	background-color: #273868 /* #2c3e50 */;
+}
+
+.teachers-on-leave-names h3{
+	padding: 8px;
+}
+
+.teachers-name{
+	width: 45%;
+	margin-top: 10px;
+	border: 1.8px solid #273868;
 	border-radius: 5px;
-	background-color: whitesmoke;
-}
-
-.teacher-absent-name h5{
-	margin: 2px;
-	padding: 3px;
+	background-color: #f2f2f3;
 }
 
 .imp-notification{
-	background-color: #E81E25;
+	margin: 60px 30px;
+	display: flex;
+	text-align: center;
+
 }
 
-.imp-notification-border h6{
-	margin: 2px;
-	padding: 3px;
+.imp-notification-heading{
+	background-color: #273868 /* #e81e25 */;
 }
 
-.imp-notification-border{
-	margin: 1px;
-	border: 1.8px solid #E81E25;
-	border-left: 10px solid #E81E25;
-	border-radius: 3px;
-	background-color: whitesmoke;
-	animation: blink 2s infinite;
+.imp-txt{
+	color: #e81e25;
+	margin: 15px 0;
+	padding-bottom: 15px;
+	font-weight: 900;
+	font-size: 1.15rem;
+	animation: blink 1s infinite;
 }
 
 .notification{
-	background-color: #12c2e9;
+	margin: 0 20px;
 }
 
-.notification-border h6{
-	margin: 2px;
-	padding: 3px;
+.notification-heading{
+	background-color: #273868 /* #12c2e9 */;
 }
 
-.notification-border{
-	margin: 1px;
-	border: 1.3px solid gray;
-	border-radius: 3px;
-	background-color: whitesmoke;
+.txt{
+	color: #273868;
+	margin: 10px 0;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #273868;
 }
 
 @keyframes blink{
 	50% {
-		border-left: 10px solid grey;
-		border: 1.8px solid grey;
+		font-size: 1.2rem;
+		color: #273868;
 	}
 }
-

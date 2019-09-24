@@ -35,8 +35,7 @@ CREATE TABLE `alert` (
 
 LOCK TABLES `alert` WRITE;
 /*!40000 ALTER TABLE `alert` DISABLE KEYS */;
-INSERT INTO `alert` VALUES (10,'bvdfb'),(11,'dgbb dbdgb'),(12,'adfasfgf'),(13,'scaafc'),(14,'lore =m lorem lorem lorem lorem lorem lorem lorem loremlorem');
-/*!40000 ALTER TABLE `alert` ENABLE KEYS */;
+
 UNLOCK TABLES;
 
 --
@@ -62,8 +61,7 @@ CREATE TABLE `attendance` (
 
 LOCK TABLES `attendance` WRITE;
 /*!40000 ALTER TABLE `attendance` DISABLE KEYS */;
-INSERT INTO `attendance` VALUES (27,'C++','BSC MATH(HONS)','2019-08-26','2019-08-31');
-/*!40000 ALTER TABLE `attendance` ENABLE KEYS */;
+
 UNLOCK TABLES;
 
 --
@@ -86,8 +84,7 @@ CREATE TABLE `notification` (
 
 LOCK TABLES `notification` WRITE;
 /*!40000 ALTER TABLE `notification` DISABLE KEYS */;
-INSERT INTO `notification` VALUES (17,'daccdf'),(18,'dvsvfsfffFdfF'),(19,'skjvdouhvoudvhasduv\r\ndfsdokjfvspjspigipshdfojshgiudafiyAGIYFTGF\r\ndfhdsiofhsdOGDUOGUGF');
-/*!40000 ALTER TABLE `notification` ENABLE KEYS */;
+
 UNLOCK TABLES;
 
 --
@@ -111,8 +108,7 @@ CREATE TABLE `uploads` (
 
 LOCK TABLES `uploads` WRITE;
 /*!40000 ALTER TABLE `uploads` DISABLE KEYS */;
-INSERT INTO `uploads` VALUES (27,'cv x','uploads/editor-bg.svg'),(28,'zdv','uploads/du-logo.png');
-/*!40000 ALTER TABLE `uploads` ENABLE KEYS */;
+
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

@@ -1,6 +1,8 @@
 
 <?php
+
 require("connect.php");
+
 // Check if image file is a actual image or fake image
 if(isset($_POST["imagesubmit"])) {
     $target_dir = "uploads/";
