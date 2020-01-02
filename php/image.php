@@ -9,7 +9,7 @@ if(isset($_POST["imagesubmit"])) {
 $target= $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
 $imageFileType = strtolower(pathinfo($target,PATHINFO_EXTENSION));
-    $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
+    $check=true;
     if($check !== false) {
           if (move_uploaded_file($_FILES['fileToUpload']['tmp_name'], $target)) {
         $msg = "Image uploaded successfully";
@@ -25,10 +25,11 @@ $imageFileType = strtolower(pathinfo($target,PATHINFO_EXTENSION));
 
 
     $title=$_POST["title"];
+    $time=$_POST["time"];
     $cmd="SELECT * FROM uploads where name ='".$target."' ";
 $result= mysqli_query($connection,$cmd);
 if(mysqli_num_rows($result)==0){
-    $query = "INSERT INTO `uploads` (title,name) VALUES('$title','$target')";
+    $query = "INSERT INTO `uploads` (title,name,time) VALUES('$title','$target','$time')";
      mysqli_query($connection,$query) ;
 }else
 { echo (  "<script> alert(' Image with this name already exist') </script>") ;

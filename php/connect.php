@@ -1,7 +1,5 @@
 <?php
-$connection = mysqli_connect('mysql', 'root', 'root');
-
-
+$connection = mysqli_connect('localhost', 'root', '' );
 if (!$connection){
 
 		
@@ -10,4 +8,6 @@ if (!$connection){
 $select_db = mysqli_select_db($connection, 'notice');
 if (!$select_db){
     die("Database Selection Failed" . mysqli_error($connection));
-}?>
+}
+
+?>

@@ -216,6 +216,7 @@ while($row=mysqli_fetch_array($result))
 <?php 
 if(isset( $_POST['delid']) )
 { 
+
 $sql = "SELECT * FROM uploads WHERE id IN (".$_POST['delid'].")";
 $result = mysqli_query($connection,$sql);
 

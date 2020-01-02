@@ -72,6 +72,8 @@
 </div>
 </div>
 
+
+
 <div class="alertNotification">
     <div class="col-md-12 select-outline">
     <form method="POST" >
@@ -94,6 +96,8 @@
           <h2>Title: &nbsp</h2> 
           <?php require("php/image.php") ?>
             <input type="text"   name="title" placeholder="Title" class="ui-widgets" required>
+            <h2>Time: &nbsp</h2>
+            <input type="text"   name="time" placeholder="2" class="ui-widgets" required>
             <input type="file" name="fileToUpload" id="imageUpload" required>
              <button type="submit" name="imagesubmit" class="btn btn-primary">Save</button>
 
